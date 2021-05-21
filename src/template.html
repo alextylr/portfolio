@@ -18,24 +18,18 @@
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Allie Landry | Front-End Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="angular, Allie Landry, javascript" />
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Allie Landry | Developer" />
 
     <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-      ScrollReveal({ reset: false });
+      ScrollReveal({ reset: false })
     </script>
-
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
@@ -46,9 +40,9 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Allie Landry</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a Front-End Developer.
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -64,28 +58,15 @@
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
+              <img class="img-fluid rounded shadow-lg" height="auto" width="425px" src="./assets/profilepic.jpg" alt="Profile Image" />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
-              </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
-              </p>
+              <p class="about-wrapper__info-text">I am a self-taught Front-End Developer who enjoys building modern, equitable, and accessible applications. I am currently working with a team of developers on a clinical software using Angular on the front-end. I am passionate, creative, and organized. Along the way, I have grown super fascinated with User Experience design, currently finding my way around Figma.</p>
+              <p class="about-wrapper__info-text">Outside of work, I spend most of my time in my kitchen baking, at the park napping in my eno, or studying UX!</p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="">
-                  View Resume
-                </a>
+                <a target="_blank" class="cta-btn cta-btn--resume" href=""> View Resume </a>
               </span>
             </div>
           </div>
@@ -98,35 +79,63 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Work Experience</h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title mb-1">Angular Developer</h3>
+                <p class="text-grey">at DaVita 2018 to Present</p>
+                <div>
+                  <p class="mb-4">At DaVita, I have been contributing to a project known as CWOW - "Centers Without Walls". CWOW is a single-page application built with Angular on the front-end. CWOW will be used by DaVita clinicians in the thousands of dialysis centers across the country.</p>
+                  <p class="mb-4">I began as a CSS Intern and within a few months, transitioned to an Angular Developer. While working here in an agile environment, I had several responsibilities</p>
+                  <ul>
+                    <li>Translating complex business requirements into clean, efficient, and well tested code</li>
+                    <li>Integrating RESTFul API's with the front-end application, and displaying and updating data using Angular's two-way data binding</li>
+                    <li>Resolving defects in the project, while tracking progress and updating defect statuses in JIRA</li>
+                    <li>Collaborated with other developers, project managers, SCRUM Masters, and QA team members daily to assess progress and address blockers</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/davita.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Streakh</h3>
                 <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+                  <p class="mb-4">Angular based web application that helps the user track a new habit Utilized the main tools Angular provides such as components, directives, and two-way data binding. Streamlined my workflow with Angular Calendar and Angular Material</p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!"> See Live </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/streakh.gif" />
                   </div>
                 </a>
               </div>
@@ -138,63 +147,18 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Tornilastra</h3>
                 <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+                  <p class="mb-4">Built the website from scratch with HTML, CSS, and JS. Designed a simple, four-page layout featuring a landing page, about, services, and contact. Made the website available in both Italian and English</p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://www.tornilastra.com/"> See Live </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/tornilastra.gif" />
                   </div>
                 </a>
               </div>
@@ -211,13 +175,8 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+          <p class="contact-wrapper__text">I am currently open to new opportunities and I'd love to hear from you! Feel free to message me on LinkedIn or send me an email! My email is alexistylerlandry@gmail.com</p>
+          <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:alexistylerlandry@gmail.com">Lets Chat!</a>
         </div>
       </div>
     </section>
@@ -230,17 +189,11 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+          <a href="https://www.linkedin.com/in/alexistylerl/" target="_blank">
+            <i class="fa fa-linkedin"></i>
           </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
+          <a href="https://github.com/alextylr" target="_blank">
+            <i class="fa fa-github"></i>
           </a>
         </div>
 
@@ -249,31 +202,7 @@
         <!-- If you give me some credit, will be huge for me :) -->
         <p class="footer__text">
           © 2020 - Template developed by
-          <a href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
+          <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
         </p>
       </div>
     </footer>
