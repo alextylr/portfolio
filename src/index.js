@@ -1,6 +1,6 @@
 import initTilt from "./js/tilt"
 import initSr from "./js/sr"
-import resume from "./assets/Landry_Allie_Resume_June_2021.pdf"
+import resume from "./assets/Allie_Landry_Resume_July_22.pdf"
 
 import "./style/main.scss"
 
